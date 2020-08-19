@@ -172,7 +172,7 @@ void TSPUtil(int map[V][V])
     
     auto start = high_resolution_clock::now(); 
     
-        sort(population.begin(), population.end(), lessthan); 
+        
         cout << "\nCurrent temp: " << temperature << "\n"; 
         vector<struct individual> new_population; 
   
